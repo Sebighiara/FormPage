@@ -9,3 +9,7 @@ handlers:
 
   - url: /.*
     script: auto
+
+env_variables:
+  SUPABASE_URL: "https://carqyapehsjquwcudjgl.supabase.co"
+  SUPABASE_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNhcnF5YXBlaHNqcXV3Y3VkamdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTM0NzI2NDIsImV4cCI6MjAwOTA0ODY0Mn0.CMXaWfmJgphfppW4JQuu_j6GfuzYl9AG8cyXD84lOpk"
