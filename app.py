@@ -26,7 +26,8 @@ def index():
 
         return redirect(request.url)
 
-    return render_template("index.html")
+    data = supabase.table("names").select("name, last_name").execute()
+    return render_template("index.html", data = data)
 
 
 if __name__ == "__main__":

@@ -16,5 +16,14 @@
       <input type="text" name="last_name" /><br /><br />
       <input type="submit" value="Submit" />
     </form>
+    {% for record in data.data %}
+    <li>
+      {{ record.name }} {{ record.last_name }}
+      <a
+        href="https://supabase.com/dashboard/project/carqyapehsjquwcudjgl/editor/28552"
+        >link to dbase</a
+      >
+    </li>
+    {% endfor %}
   </body>
 </html>
